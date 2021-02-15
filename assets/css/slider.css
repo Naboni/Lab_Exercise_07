@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+#sliderContainer{
+    transition: all 1s ease-in-out;
+    background: url('https://picsum.photos/3840/2160');
+    width: 100vw !important;
+    height: 100vh !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    transform:translate3d(0,0,0);
+    backface-visibility: hidden;
+}
