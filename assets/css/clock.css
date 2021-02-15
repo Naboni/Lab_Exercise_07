@@ -67,3 +67,14 @@ body {
 	height: 150px;
 	border-radius: 6px 6px 0 0;
 }
+
+.myclock {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-92%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
