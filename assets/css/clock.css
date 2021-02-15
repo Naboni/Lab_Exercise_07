@@ -18,10 +18,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #fff url(../img/clock.png);
+	background: #fff url(../img/clock3.png);
 	background-size: cover;
 	border-radius: 50%;
-	border: 20px solid white;
+	/* border: 20px solid white; */
 }
 
 .clock::before {
@@ -30,7 +30,7 @@ body {
 	width: 17px;
 	height: 17px;
 	background-color: #000000;
-	border: 2px solid white;
+	/* border: 2px solid white; */
 	z-index: 1;
 	border-radius: 50%;
 }
@@ -48,14 +48,14 @@ body {
 }
 
 .hour {
-	background-color: #000000;
+	background-color: #00af91;
 	height: 90px;
 	width: 8px;
 	border-radius: 6px 6px 0 0;
 }
 
 .min {
-	background-color: #5f27cd;
+	background-color: #ffe227;
 	height: 100px;
 	width: 4px;
 	border-radius: 6px 6px 0 0;
@@ -70,10 +70,10 @@ body {
 
 .myclock {
     position: absolute;
-    top: 92%;
+    top: 95%;
     left: 50%;
     transform: translateX(-50%) translateY(-92%);
-    color: #17D4FE;
+    color: #c7ffd8;
     font-size: 60px;
     font-family: Orbitron;
     letter-spacing: 7px;

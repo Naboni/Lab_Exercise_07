@@ -9,15 +9,33 @@ img{
     height: 100vh !important;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh !important;
+    background-image: linear-gradient(120deg, #ff6b6b, #5f27cd);
+    border: 1px solid #bbdfc8;
+}
+
+.title h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    color: #f9f871;
+}
+
 #sliderContainer{
-    transition: all 1s ease-in-out;
     background: url('https://picsum.photos/3840/2160');
-    width: 100vw !important;
-    height: 100vh !important;
+    width: 100% !important;
+    height: 93vh !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     transform:translate3d(0,0,0);
-    backface-visibility: hidden;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
+

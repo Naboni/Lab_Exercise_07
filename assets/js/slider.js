@@ -17,10 +17,10 @@
 
     setTimeout(() => {
         let index = 0
-        console.log(z.length);
+        // console.log(z.length);
         const sliderContainer = document.querySelector('#sliderContainer')
         setInterval(() => {
-            console.log(index + ' src ' + z[index])
+            // console.log(index + ' src ' + z[index])
             const img = z[index]
             sliderContainer.style.transition = 'all 1s ease-in-out'
             sliderContainer.style.background = `url(${img})`
